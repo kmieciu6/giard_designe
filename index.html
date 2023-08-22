@@ -1,0 +1,375 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giard Designe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+
+    <section id='header'>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="#">
+                        <img src="assets/logo_black.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="nav-toggler">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Oferta
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-black h6" href="#offer">Oferta</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-black h6" href="#card_1">Projekty</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-black h6" href="#card_2">Wizualizacje</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-black h6" href="#card_3">Realizacje</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#about">O firmie</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#realization">Realizacje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#contact">Kontakt</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" href="#offer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/search.svg" alt="search">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="input-group">
+                                        <input id="searchInput" type="search" class="form-control" placeholder="Wyszukaj...">
+                                    </div>
+                                    <div id="searchSuggestions" class="suggestions"></div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+    <div class="scroll-to-top"><img src="assets/arrow_up.svg" alt=""></div>
+
+    <section id="opening">
+        <div class="carousel">
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1>
+                            Nowoczesna aranżacja Twojego ogrodu
+                        </h1>
+                        <p>
+                            Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.
+                            Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.
+                        </p>
+                        <div class="btns">
+                            <button class="scroll-button button-btn" data-target="contact">Skontaktuj się z nami</button>
+                            <button class="scroll-button button-btn" data-target="realizations">Zobacz nasze realizacje <img src="assets/arrow_down_green.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-image"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-image"></div>
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1>
+                            Nowoczesna aranżacja Twojego ogrodu
+                        </h1>
+                        <p>
+                            Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.
+                            Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.
+                        </p>
+                        <div class="btns">
+                            <button class="scroll-button button-btn" data-target="contact">Skontaktuj się z nami</button>
+                            <button class="scroll-button button-btn" data-target="realizations">Zobacz nasze realizacje <img src="assets/arrow_down_green.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-text">
+                        <h1>
+                            Nowoczesna aranżacja Twojego ogrodu
+                        </h1>
+                        <p>
+                            Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji.
+                            Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.
+                        </p>
+                        <div class="btns">
+                            <button class="scroll-button button-btn" data-target="contact">Skontaktuj się z nami</button>
+                            <button class="scroll-button button-btn" data-target="realizations">Zobacz nasze realizacje <img src="assets/arrow_down_green.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-image"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="prevBtn"><img src="assets/arrow_left_black.svg" alt=""></button>
+            <button class="nextBtn"><img src="assets/arrow_right_black.svg" alt=""></button>
+        </div>
+    </section>
+
+
+    <section id='offer'>
+        <div class="offer-text">
+            <h5>
+                Oferta
+            </h5>
+            <h2>
+                Działamy <span>kompleksowo</span>
+            </h2>
+            <p>
+                Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne 
+                ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy 
+                go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem. 
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card" id="card_1">
+                <div>
+                    <img src="assets/icon1.png" alt="icon" class="icon">
+                </div>
+                <h3>
+                    Projekty
+                </h3>
+                <p>
+                    Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym 
+                    wykorzystaniem istniejącej przestrzeni.
+                </p>
+                <button>
+                    Dowiedz się więcej
+                    <img src="assets/arrow_right.svg" alt="arrow">
+                </button>
+            </div>
+            <div class="card" id="card_2">
+                <div>
+                    <img src="assets/icon2.png" alt="icon" class="icon">
+                </div>
+                <h3>
+                    Wizualizacje
+                </h3>
+                <p>
+                    Przedstawimy Ci projekty koncepcyjne w postaci 
+                    wirtualnego spaceru animowanego w technologii 3D.
+                </p>
+                <button>
+                    Dowiedz się więcej
+                    <img src="assets/arrow_right.svg" alt="arrow">
+                </button>
+            </div>
+            <div class="card" id="card_3">
+                <div>
+                    <img src="assets/icon3.png" alt="icon" class="icon">
+                </div>
+                <h3>
+                    Realizacje
+                </h3>
+                <p>
+                    Zrealizujemy Twoje marzenie przy użyciu najnowszych 
+                    rozwiązań i zaawansowanych technologii.
+                </p>
+                <button>
+                    Dowiedz się więcej
+                    <img src="assets/arrow_right.svg" alt="arrow">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id='about'>
+        <div class="about-image"></div>
+        <div class="about-text">
+            <h5>
+                O firmie
+            </h5>
+            <h2>
+                Tworzymy z <span>pasją</span>
+            </h2>
+            <p>
+                Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani 
+                projektanci oraz architekci, których zadaniem jest rozpoznanie i realizacja 
+                potrzeb każdego Klienta. Nasza specjalizacja to przestrzenie nowoczesne, 
+                które charakteryzuje minimalizm, geometria i elegancka prostota. 
+                Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.
+            </p>
+            <button class="button-btn">
+                Poznaj nas bliżej
+                <img src="assets/arrow_right_white.svg" alt="arrow">
+            </button>
+        </div>
+    </section>
+
+
+    <section id='realizations'>
+        <div class="realizations_text">
+            <h5>
+                Realizacje
+            </h5>
+            <h2>
+                Nasze <span>projekty</span>
+            </h2>
+        </div>
+        <div class="gradient-overlay"></div>
+        <div class="grid">
+            <div class="grid-container">
+                <div class="grid-sizer"></div>
+                <div class="grid-item">
+                    <a href="assets/image1.jpeg" data-fancybox="gallery" data-caption="Caption 1">
+                        <img src="assets/image1-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image2.jpeg" data-fancybox="gallery" data-caption="Caption 2">
+                        <img src="assets/image2-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image3.jpeg" data-fancybox="gallery" data-caption="Caption 3">
+                        <img src="assets/image3-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image4.jpeg" data-fancybox="gallery" data-caption="Caption 4">
+                        <img src="assets/image4-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image5.jpeg" data-fancybox="gallery" data-caption="Caption 5">
+                        <img src="assets/image5-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image6.jpeg" data-fancybox="gallery" data-caption="Caption 6">
+                        <img src="assets/image6-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image7.jpeg" data-fancybox="gallery" data-caption="Caption 7">
+                        <img src="assets/image7-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image8.jpeg" data-fancybox="gallery" data-caption="Caption 8">
+                        <img src="assets/image8-small.jpeg" alt="">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="assets/image9.jpeg" data-fancybox="gallery" data-caption="Caption 9">
+                        <img src="assets/image9-small.jpeg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button id="rozwin-btn" class="button-btn">
+            <span class="button-text">Rozwiń</span>
+            <img class="arrow-img" src="assets/arrow_down_black.svg" alt="">
+        </button>
+    </section>
+
+    
+    <section id='contact'>
+        <div class="contact_container">
+            <h2>
+                Zostańmy w kontakcie! Znajdziesz nas na <span>Instagramie.</span>
+            </h2>
+            <div>
+                <p>
+                    Śledź nasze najnowsze realizacje!
+                </p>
+                <button class="scroll-button button-btn" data-url="https://www.instagram.com">
+                    Instagram
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div>
+            <div>
+                <img src="assets/logo_white.svg" alt="logo">
+                <p>
+                    Daj znać, co możemy dla Ciebie zrobić!
+                </p>
+                <button class="button-btn">
+                    Skontaktuj się z nami
+                </button>
+            </div>
+            <div>
+                <div>
+                    <a href="">
+                        <p>
+                            Kontakt
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            Instagram
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            Facebook
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            LinkedIn
+                        </p>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <p>
+                            000-000-000
+                        </p>
+                    </a>
+                    <a href="">
+                        <p>
+                            giarddesign@kontakt.pl
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <p>
+                Prawa zastrzeżone © 2022
+            </p>
+            <div>
+                <p>
+                    made by
+                </p>
+                <img src="assets/adRespect.svg" alt="adRespect">
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/app.js" defer></script>
+</body>
+</html>
