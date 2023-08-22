@@ -1,11 +1,22 @@
 // Loading
-document.addEventListener("DOMContentLoaded", function() {
-    var loaderWrapper = document.querySelector(".loader-wrapper");
-    var content = document.querySelector(".content");
+// document.addEventListener("DOMContentLoaded", function() {
+//     const loaderWrapper = document.querySelector(".loader-wrapper");
+//     const content = document.querySelector(".content");
+    
+//     setTimeout(function(){
+//         loaderWrapper.style.display = "none"; // Ukrywamy okno ładowania
+//         content.style.display = "block"; // Pokazujemy zawartość strony
+//     }, 3000)
+// });
+
+window.addEventListener("load", function() {
+    const loaderWrapper = document.querySelector(".loader-wrapper");
+    const content = document.querySelector(".content");
     
     loaderWrapper.style.display = "none"; // Ukrywamy okno ładowania
     content.style.display = "block"; // Pokazujemy zawartość strony
 });
+
 
 
 // Searcher

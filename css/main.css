@@ -1,10 +1,10 @@
 @import "generic/reset.css";
 
+@import "settings/loading.css";
 @import "settings/mixins.css";
 @import "settings/colors.css";
 @import "settings/fonts.css";
 @import "settings/buttons.css";
-@import "settings/loading.css";
 
 @import "components/header.css";
 @import "components/opening.css";
