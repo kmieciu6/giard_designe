@@ -64,7 +64,8 @@
 #rozwin-btn {
     position: absolute;
     bottom: 5%;
-    left: 46%;
+    left: 50%; 
+    transform: translateX(-50%); 
     border: 1px solid black;
     z-index: 2;
 }
@@ -94,8 +95,9 @@
     }
 
     #rozwin-btn {
-        bottom: .5%;
-        left: 30%;
+        bottom: 0.5%; 
+        left: 50%; 
+        transform: translateX(-50%); 
     }
 }
 
