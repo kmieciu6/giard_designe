@@ -83,14 +83,10 @@ section:nth-of-type(4) h5 {
     color: #F5F0EC;
 }
 
-/* Dla telefonu (max szerokość 768px) */
-@media (max-width: 768px) {
-
-}
-
-/* Dla tabletu (min szerokość 769px i max 1023px) */
-@media (min-width: 769px) and (max-width: 1023px) {
-
+#footer button {
+    background-color: #1B5B31;
+    color: #F5F0EC;
+    border: 1px solid #1B5B31;
 }
 
 /* Dla telefonu i tabletu (max 1023px) */
@@ -117,6 +113,12 @@ section:nth-of-type(4) h5 {
         color: #F5F0EC;
         border: 1px solid #F5F0EC;
     }
+
+    #footer button:active {
+        background-color: #F5F0EC;
+        color: #1B5B31;
+        border: 1px solid #1B5B31;
+    }    
 }
   
 /* Dla monitora (min szerokość 1024px) */
@@ -142,5 +144,11 @@ section:nth-of-type(4) h5 {
         background: #1B5B31;
         color: #F5F0EC;
         border: 1px solid #F5F0EC;
+    }    
+
+    #footer button:hover {
+        background-color: #F5F0EC;
+        color: #1B5B31;
+        border: 1px solid #1B5B31;
     }    
 }

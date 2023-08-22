@@ -57,7 +57,7 @@
 /* Buttony na slajdach */
 .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
 }

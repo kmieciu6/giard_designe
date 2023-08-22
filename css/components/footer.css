@@ -1,4 +1,89 @@
 #footer {
     display: flex;
-    
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5rem 0;
+}
+
+#footer .foot {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer .foot:first-of-type  {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #F5F0EC;
+}
+
+#footer .foot:first-of-type p {
+    padding: 2rem 0;
+}
+
+#footer .foot:nth-of-type(2) {
+    padding: 2rem 0;
+}
+
+#footer .foot:nth-of-type(2) p {
+    padding: 0.3rem 0;
+}
+
+#footer .foot div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer img {
+    padding-top: 1rem;
+}
+
+/* Dla tableta i monitora (min szerokość 769px) */
+@media (min-width: 769px) {
+    .footer-container {
+        width: 70%;
+    }
+
+    #footer .foot {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #footer .foot:first-of-type  {
+        padding: 2rem 0;
+    }
+
+    #footer .foot:first-of-type p {
+        padding-right: 2rem;
+    }
+
+    #footer .foot:nth-of-type(2) p {
+        padding-right: 1rem;
+    }
+
+    #footer .foot:nth-of-type(2):last-of-type p:last-of-type{
+        padding-right: 0;
+        padding-left: 1rem;
+    }
+
+    #footer .foot div {
+        flex-direction: row;
+    }
+
+    #footer img {
+        padding-top: 0;
+        padding-left: 1rem;
+    }
+}
+
+/* Dla tabletu (min szerokość 769px i max 1023px) */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .footer-container {
+        width: 80%;
+    }
 }
