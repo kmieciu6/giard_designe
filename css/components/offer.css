@@ -68,8 +68,8 @@
     padding-left: 2rem;
 }
 
-/* Dla tableta i monitora (min szerokość 769px) */
-@media (min-width: 769px) {
+/* Dla monitora (min szerokość 1024px) */
+@media (min-width: 1024px) {
 
     .offer-text {
         width: 60%;

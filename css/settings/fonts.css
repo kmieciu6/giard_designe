@@ -16,6 +16,20 @@ h2 span {
   font-family: Inter;
 }
 
+
+@keyframes bounceAnimation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+h2 {
+  animation: bounceAnimation 2s infinite; 
+}
+
 /* Dla monitora (min szerokość 1024px) */
 @media (min-width: 1024px) {
 
