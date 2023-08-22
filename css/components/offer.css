@@ -1,0 +1,114 @@
+#offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer-text {
+    width: 90%;
+    margin: 7rem 0 5rem 0;
+}
+
+.offer-text h2 {
+    margin: 2rem 0;
+}
+
+#offer .icon {
+    width: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;   
+    max-width: 1400px;
+    margin-bottom: 6rem;
+}
+
+.cards .card {
+    border: 0;
+    border-radius: 28px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards .card:nth-of-type(2) {
+    margin: 5rem 0;
+}
+
+.cards .card:nth-of-type(2) .icon {
+    margin-top: 1rem;
+}
+
+.cards h3 {
+    margin: 1.8rem 0;
+}
+
+.cards p {
+    margin-bottom: 1.8rem;
+}
+
+.cards .card .icon {
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+
+#offer button {
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    transition: 1s;
+}
+
+#offer button img {
+    transition: 1s;
+}
+
+#offer button:hover img {
+    padding-left: 2rem;
+}
+
+/* Dla tableta i monitora (min szerokość 769px) */
+@media (min-width: 769px) {
+
+    .offer-text {
+        width: 60%;
+    }
+
+    #offer .icon {
+        width: 3rem;
+    }
+
+    .cards {
+        flex-direction: row;   
+        margin-bottom: 7rem;
+    }
+
+    .cards .card {
+        width: 60%;
+    }
+    
+    .cards .card:nth-of-type(2) {
+        margin: 0 5rem;
+    }
+
+    .cards .card:nth-of-type(2) h3 {
+        margin-top: 2rem;
+    }
+    
+    .cards .card:hover .icon {
+        transform: translateX(calc(100%)); /* Przesuń ikonę do końca karty */
+    }
+}
+
+/* Dla telefonu (max szerokość 768px) */
+@media (max-width: 768px) {
+
+    .cards {
+        align-items: center;
+    }
+    .cards .card {
+        width: 70%;
+        align-items: center;
+    }    
+}

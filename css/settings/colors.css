@@ -1,0 +1,146 @@
+h5 {
+    color: #1B5B31;
+}
+
+section:nth-of-type(4) h5 {
+    color:  #F5F0EC;
+}
+
+#header {
+    color: black;
+}
+
+#header .bg-body-tertiary {
+    background-color: white !important;
+}
+
+#opening {
+    background: #DCC1AB;
+}
+
+/* Buttony na slajdach */
+#opening .btns button {
+    border: 1px solid #1B5B31;
+}
+
+#opening .btns button:nth-of-type(1) {
+    background-color: #1B5B31;
+    color: white;
+}
+
+/* Buttony do zmiany slajdów*/
+#opening .buttons button {
+    background: #F5F0EC;
+}
+
+#offer {
+    background-color: #F5F0EC;
+}
+
+#offer button {
+    color: #1B5B31;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #1B5B31;
+}
+
+#about {
+    color: #F5F0EC;
+    background-color: #1B5B31;
+}
+
+#about button {
+    background-color: #1B5B31;
+    color: #F5F0EC;
+    border: 1px solid #F5F0EC;
+}
+
+#realizations {
+    background-color: #DCC1AB;
+}
+
+#contact {
+    background: #F5F0EC;
+}
+
+#contact .contact_container {
+    background: #1B5B31;
+    color: #F5F0EC;
+}
+
+#contact button {
+    background-color: #F5F0EC;
+    color: #1B5B31;
+    border: 1px solid #1B5B31;
+}
+
+#footer {
+    background-color: #111111;
+    color: #F5F0EC;
+}
+
+#footer a {
+    color: #F5F0EC;
+}
+
+/* Dla telefonu (max szerokość 768px) */
+@media (max-width: 768px) {
+
+}
+
+/* Dla tabletu (min szerokość 769px i max 1023px) */
+@media (min-width: 769px) and (max-width: 1023px) {
+
+}
+
+/* Dla telefonu i tabletu (max 1023px) */
+@media (max-width: 1023px) {
+    
+    /* Buttony do zmiany slajdów */
+    #opening .buttons button:active {
+        background-color: rgb(133, 128, 128);
+    }
+
+    /* Buttony na slajdach */
+    #opening .btns button:nth-of-type(1):active {
+        background-color: white;
+        color: #1B5B31;
+    }    
+
+    #opening .btns button:nth-of-type(2):active {
+        background-color: #1B5B31;
+        color: white;
+    }   
+
+    #contact button:active {
+        background: #1B5B31;
+        color: #F5F0EC;
+        border: 1px solid #F5F0EC;
+    }
+}
+  
+/* Dla monitora (min szerokość 1024px) */
+@media (min-width: 1024px) {
+    
+    /* Buttony do zmiany slajdów */
+    #opening .buttons button:hover {
+        background-color: rgb(133, 128, 128);
+    }
+
+    /* Buttony na slajdach */
+    #opening .btns button:nth-of-type(1):hover {
+        background-color: white;
+        color: #1B5B31;
+    }    
+
+    #opening .btns button:nth-of-type(2):hover {
+        background-color: #1B5B31;
+        color: white;
+    }   
+
+    #contact button:hover {
+        background: #1B5B31;
+        color: #F5F0EC;
+        border: 1px solid #F5F0EC;
+    }    
+}

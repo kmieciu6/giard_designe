@@ -1,0 +1,15 @@
+@import "generic/reset.css";
+
+@import "settings/mixins.css";
+@import "settings/colors.css";
+@import "settings/fonts.css";
+@import "settings/buttons.css";
+
+@import "components/header.css";
+@import "components/opening.css";
+@import "components/offer.css";
+@import "components/about.css";
+@import "components/realizations.css";
+@import "components/contact.css";
+@import "components/footer.css";
+@import "components/scroll_to_top.css";

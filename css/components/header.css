@@ -1,0 +1,57 @@
+.container-fluid {
+    background: white;
+    width: 100%;
+    margin: 0.2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    text-align: left;
+}
+
+.nav-toggler {
+    text-align: right;
+}
+
+.navbar-toggler-icon {
+    display: block; 
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.dropdown-toggle {
+    text-align: center;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.suggestion {
+    cursor: pointer;
+    margin: 2px;
+    padding: 4px;
+}
+
+@media (max-width: 1023px) {
+    input {
+        border-radius: 0;
+    }
+    .navbar-nav {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        margin: 0.2rem 1rem;
+    }
+}

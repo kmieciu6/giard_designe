@@ -1,0 +1,24 @@
+/* Dla telefonu (max szerokość 768px) */
+@media (max-width: 768px) {
+
+}
+
+/* Dla tabletu (min szerokość 769px i max 1023px) */
+@media (min-width: 769px) and (max-width: 1023px) {
+
+}
+
+/* Dla telefonu i tabletu (max 1023px) */
+@media (max-width: 1023px) {
+
+}
+  
+/* Dla monitora (min szerokość 1024px) */
+@media (min-width: 1024px) {
+
+}
+
+/* Dla tableta i monitora (min szerokość 769px) */
+@media (min-width: 769px) {
+
+}
