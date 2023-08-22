@@ -167,7 +167,7 @@
                         Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym 
                         wykorzystaniem istniejącej przestrzeni.
                     </p>
-                    <button>
+                    <button class="scroll-button" data-target="realizations">
                         Dowiedz się więcej
                         <img src="assets/arrow_right.svg" alt="arrow">
                     </button>
@@ -183,7 +183,7 @@
                         Przedstawimy Ci projekty koncepcyjne w postaci 
                         wirtualnego spaceru animowanego w technologii 3D.
                     </p>
-                    <button>
+                    <button class="scroll-button" data-url="https://www.youtube.com/watch?v=3z-jNRAwSHk">
                         Dowiedz się więcej
                         <img src="assets/arrow_right.svg" alt="arrow">
                     </button>
@@ -199,7 +199,7 @@
                         Zrealizujemy Twoje marzenie przy użyciu najnowszych 
                         rozwiązań i zaawansowanych technologii.
                     </p>
-                    <button>
+                    <button class="scroll-button" data-target="contact">
                         Dowiedz się więcej
                         <img src="assets/arrow_right.svg" alt="arrow">
                     </button>
@@ -223,10 +223,17 @@
                     które charakteryzuje minimalizm, geometria i elegancka prostota. 
                     Tworzymy ogrody małoobsługowe, dostosowane do współczesnego trybu życia.
                 </p>
-                <button class="button-btn">
+                <button class="button-btn" id="showPopupButton">
                     Poznaj nas bliżej
                     <img src="assets/arrow_right_white.svg" alt="arrow">
                 </button>
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close-button" id="closeButton">&times;</span>
+                    <h2>Witaj!</h2>
+                    <p>Dziękuję za odwiedzenie mojej strony.</p>
+                </div>
             </div>
         </section>
 
@@ -369,9 +376,11 @@
                         Prawa zastrzeżone © 2022
                     </p>
                     <div>
-                        <p>
-                            made by
-                        </p>
+                        <a href="https://github.com/kmieciu6/giard_designe">
+                            <p>
+                                made by Jakub Kmiecik
+                            </p>
+                        </a>
                         <img src="assets/adRespect.svg" alt="adRespect">
                     </div>
                 </div>

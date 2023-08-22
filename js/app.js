@@ -260,3 +260,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+// Popup
+const showPopupButton = document.getElementById('showPopupButton');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('closeButton');
+
+showPopupButton.addEventListener('click', () => {
+    popup.style.display = 'flex';
+});
+
+closeButton.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
