@@ -6,12 +6,8 @@ window.addEventListener("load", function() {
     setTimeout(function() {
         loaderWrapper.style.display = "none"; 
         content.style.display = "block"; 
-    }, 2000); 
+    }, 1000); 
 });
-
-
-
-
 
 
 // Searcher
