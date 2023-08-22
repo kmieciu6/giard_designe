@@ -1,3 +1,13 @@
+// Loading
+document.addEventListener("DOMContentLoaded", function() {
+    var loaderWrapper = document.querySelector(".loader-wrapper");
+    var content = document.querySelector(".content");
+    
+    loaderWrapper.style.display = "none"; // Ukrywamy okno ładowania
+    content.style.display = "block"; // Pokazujemy zawartość strony
+});
+
+
 // Searcher
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById('searchInput');
